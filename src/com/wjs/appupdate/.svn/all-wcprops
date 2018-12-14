@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/test
+END
+CheckUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/test/CheckUpdate.java
+END
+UploadApk.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/test/UploadApk.java
+END
+Delete.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/test/Delete.java
+END
+DownloadApk.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/test/DownloadApk.java
+END
+LoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/test/LoginService.java
+END

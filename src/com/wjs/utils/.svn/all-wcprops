@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/utils
+END
+createPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/myServlet/!svn/ver/6/trunk/AppUpdate/src/com/wjs/utils/createPath.java
+END
+JDBC.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/utils/JDBC.java
+END
+ReadApkInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/myServlet/!svn/ver/6/trunk/AppUpdate/src/com/wjs/utils/ReadApkInfo.java
+END
+GetApkIcon.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/myServlet/!svn/ver/6/trunk/AppUpdate/src/com/wjs/utils/GetApkIcon.java
+END
+CommonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/myServlet/!svn/ver/15/trunk/AppUpdate/src/com/wjs/utils/CommonUtil.java
+END
+DecoderEncoderUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/utils/DecoderEncoderUtils.java
+END
+MD5Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/myServlet/!svn/ver/6/trunk/AppUpdate/src/com/wjs/utils/MD5Utils.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/myServlet/!svn/ver/6/trunk/AppUpdate/src/com/wjs/utils/StringUtils.java
+END

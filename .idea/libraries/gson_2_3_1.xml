@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="gson-2.3.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jpush/gson-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jpush/jiguang-common-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jpush/jpush-client-3.3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jpush/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jpush/netty-build-22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jpush/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jpush/slf4j-log4j12-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

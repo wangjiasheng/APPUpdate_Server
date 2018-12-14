@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/utils/codec
+END
+Base64Encoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/utils/codec/Base64Encoder.java
+END
+AES.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/utils/codec/AES.java
+END
+AESUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/utils/codec/AESUtils.java
+END
+Base64Decoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/myServlet/!svn/ver/20/trunk/AppUpdate/src/com/wjs/utils/codec/Base64Decoder.java
+END
