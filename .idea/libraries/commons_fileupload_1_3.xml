@@ -7,6 +7,8 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/javaxdelta-2.0.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.12.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/trove-2.0.2.jar!/" />
+      <root url="jar://G:/DEVTOOLS/apache-tomcat-9.0.37/lib/servlet-api.jar!/" />
+      <root url="jar://G:/DEVTOOLS/apache-tomcat-9.0.37/lib/jsp-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

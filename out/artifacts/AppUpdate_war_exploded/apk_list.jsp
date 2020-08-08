@@ -186,8 +186,8 @@ tr:last-child td:last-child {
 					out.println("<td>"+bean.getApkmd5()+"</td>");
 					out.println("<td><a href=\""+(request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath(bean.getAppPath()))+"\">下载</a></td>");
 					out.println("<td><a href=\"javascript:;\"  onclick=\"delete_order('"+bean.getPackageName().replaceAll("\\.", "wjs_wjs")+"wjs_wjs"+bean.getVerCode()+"')\">删除</a></td>");
-					out.println("<td><a href=\"javascript:;\"  onclick=\"paushMessage('"+(DecoderEncoderUtils.encodeFilepath(bean.getAppPath()))+"')\">推送</a></td>");
-					out.println("<td><a href=\"javascript:;\"  onclick=\"paushMessage('"+(DecoderEncoderUtils.encodeFilepath(bean.getAppPath())+"&alias=wangjiashheng")+"')\">测试推送</a></td>");
+					out.println("<td><a href=\"javascript:;\"  onclick=\"paushMessage('"+(DecoderEncoderUtils.encodeFilepath(bean.getAppPath())+"&tag=all")+"')\">推送</a></td>");
+					out.println("<td><a href=\"javascript:;\"  onclick=\"paushMessage('"+(DecoderEncoderUtils.encodeFilepath(bean.getAppPath())+"&tag=wangjiashheng")+"')\">测试推送</a></td>");
 					out.println("</tr>");
 				}
 				codelist.clear();

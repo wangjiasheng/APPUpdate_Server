@@ -17,7 +17,9 @@ import com.wjs.utils.JDBC;
 import com.wjs.utils.MD5Utils;
 import com.wjs.utils.StringUtils;
 import com.wjs.utils.createPath;
-
+/*
+ *已经实现完毕不需要修改了
+ */
 public class CheckUpdate extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	PathInfo info=PathInfo.parsePathInfo();
@@ -70,104 +72,102 @@ public class CheckUpdate extends HttpServlet {
 			writer.close();
 			return;
 		}
-		ApkInfo update = JDBC.checkUpdate(packageName);
-		ApkInfo apkInfo = JDBC.getApkInfo(packageName, verCode);
-		if(update!=null)
-		{
-			if(Integer.parseInt(update.getVerCode())>Integer.parseInt(verCode))
-			{
-				if(incremental_update.equals("false"))
-				{
-					String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath(update.getAppPath());
-					writer.print("{\"status\": true,\"incremental_update\": false,\"verCode\":"+update.getVerCode()+",\"verName\":\""+update.getVerName()+"\",\"size\":"+new File(update.getAppPath()).length()+",\"updatemessage\":"+update.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
-					writer.flush();
-					writer.close();
-				}
-				else if(apkmd5==null)
-				{
-					String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath(update.getAppPath());
-					writer.print("{\"status\": true,\"incremental_update\": false,\"message\":\"apkmd5为空\",\"verCode\":"+update.getVerCode()+",\"verName\":\""+update.getVerName()+"\",\"size\":"+new File(update.getAppPath()).length()+",\"updatemessage\":"+update.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
-					writer.flush();
-					writer.close();
-				}
-				else if(apkInfo!=null&&!(apkmd5.equals(apkInfo.getApkmd5())))
-				{
-					String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath(update.getAppPath());
-					writer.print("{\"status\": true,\"incremental_update\": false,\"message\":\"该版本服务器端apkmd5和客户端apkmd5不同\",\"verCode\":"+update.getVerCode()+",\"verName\":\""+update.getVerName()+"\",\"size\":"+new File(update.getAppPath()).length()+",\"updatemessage\":"+update.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
-					writer.flush();
-					writer.close();
-				}
-				else
-				{
-					if(apkInfo==null)
-					{
-						writer.print("{\"status\": false,\"errCode\": 105,\"message\": \"apk版本太低或者重大bug已被删除，服务器不存在此版本apk\"}");
-						writer.flush();
-						writer.close();
-						return;
-					}
-					if(apkInfo.getAppPath().equals(update.getAppPath()))
-					{
-						writer.print("{\"status\": false,\"errCode\": 106,\"message\": \"您的apk是最新的版本\"}");
-						writer.flush();
-						writer.close();
-						return;
-					}
-					else
-					{
-						File file=new File(info.getPatchpath()+File.separator+apkInfo.getPackageName()+File.separator);
-						if(!file.exists())
-						{
-							file.mkdirs();
-						}
-						String patch=file.getAbsolutePath()+File.separator+update.getVerCode()+"_"+apkInfo.getVerCode()+".patch";
-						File filepatch=new File(patch);
-						if(filepatch.exists())
-						{
-							String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath((info.getPatchpath()+File.separator+apkInfo.getPackageName()+File.separator+update.getVerCode()+"_"+apkInfo.getVerCode()+".patch"));
-							writer.print("{\"status\": true,\"incremental_update\": true,\"old_apk_md5\":\""+MD5Utils.getFileMD5(new File(apkInfo.getAppPath()))+"\",\"new_apk_md5\":\""+MD5Utils.getFileMD5(new File(update.getAppPath()))+"\",\"verCode\":"+update.getVerCode()+",\"verName\":\""+update.getVerName()+"\",\"size\":"+new File(patch).length()+",\"updatemessage\":"+update.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
-							writer.flush();
-							writer.close();
-						}
-						else
-						{
-							boolean bool=createPath.createPatch(update.getAppPath(), apkInfo.getAppPath(),patch);
-							if(bool)
-							{
-								String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath((info.getPatchpath()+File.separator+apkInfo.getPackageName()+File.separator+update.getVerCode()+"_"+apkInfo.getVerCode()+".patch"));
-								writer.print("{\"status\": true,\"incremental_update\": true,\"old_apk_md5\":\""+MD5Utils.getFileMD5(new File(apkInfo.getAppPath()))+"\",\"new_apk_md5\":\""+MD5Utils.getFileMD5(new File(update.getAppPath()))+"\",\"verCode\":"+update.getVerCode()+",\"verName\":\""+update.getVerName()+"\",\"size\":"+new File(patch).length()+",\"updatemessage\":"+update.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
-								writer.flush();
-								writer.close();
-							}
-							else
-							{
-								writer.print("{\"status\": false,\"errCode\": 107,\"message\": \"服务器出现异常\"}");
-								writer.flush();
-								writer.close();
-							}
-						}
-					}
-				}
-			}
-			else if(Integer.parseInt(update.getVerCode())==Integer.parseInt(verCode))
-			{
-				writer.print("{\"status\": false,\"errCode\": 108,\"message\": \"您的apk是最新的版本\"}");
-				writer.flush();
-				writer.close();
-			}
-			else if(Integer.parseInt(update.getVerCode())<Integer.parseInt(verCode))
-			{
-				writer.print("{\"status\": false,\"errCode\": 109,\"message\": \"开发者，您的apk高于最新的版本，请先发布最新版本\"}");
-				writer.flush();
-				writer.close();
-			}
-		}
-		else
-		{
+		ApkInfo dbMaxVersionApkInfo = JDBC.checkUpdate(packageName); //根据包名查询VersionCode最大的apk信息
+		ApkInfo userCurrentVersionApkInfo = JDBC.getApkInfo(packageName, verCode);//根据包名和versionCode查询VersionCode的Api信息
+
+		if(dbMaxVersionApkInfo==null){
 			writer.print("{\"status\": false,\"errCode\": 110,\"message\": \"您的apk服务器不存在\"}");
 			writer.flush();
 			writer.close();
+			return;
 		}
+		if(Integer.parseInt(dbMaxVersionApkInfo.getVerCode())<Integer.parseInt(verCode))
+		{
+			writer.print("{\"status\": false,\"errCode\": 109,\"message\": \"开发者，您的apk高于最新的版本，请先发布最新版本\"}");
+			writer.flush();
+			writer.close();
+			return;
+		}
+		if(Integer.parseInt(dbMaxVersionApkInfo.getVerCode())==Integer.parseInt(verCode))
+		{
+			writer.print("{\"status\": false,\"errCode\": 108,\"message\": \"您的apk是最新的版本\"}");
+			writer.flush();
+			writer.close();
+			return;
+		}
+		if(userCurrentVersionApkInfo==null)
+		{
+			writer.print("{\"status\": false,\"errCode\": 105,\"message\": \"apk版本太低或者重大bug已被删除，服务器不存在此版本apk\"}");
+			writer.flush();
+			writer.close();
+			return;
+		}
+		if(incremental_update.equals("false"))
+		{
+			String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath(dbMaxVersionApkInfo.getAppPath());
+			writer.print("{\"status\": true,\"incremental_update\": false,\"verCode\":"+dbMaxVersionApkInfo.getVerCode()+",\"verName\":\""+dbMaxVersionApkInfo.getVerName()+"\",\"size\":"+new File(dbMaxVersionApkInfo.getAppPath()).length()+",\"updatemessage\":"+dbMaxVersionApkInfo.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
+			writer.flush();
+			writer.close();
+			return;
+		}
+		if(apkmd5==null)
+		{
+			String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath(dbMaxVersionApkInfo.getAppPath());
+			writer.print("{\"status\": true,\"incremental_update\": false,\"message\":\"apkmd5为空\",\"verCode\":"+dbMaxVersionApkInfo.getVerCode()+",\"verName\":\""+dbMaxVersionApkInfo.getVerName()+"\",\"size\":"+new File(dbMaxVersionApkInfo.getAppPath()).length()+",\"updatemessage\":"+dbMaxVersionApkInfo.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
+			writer.flush();
+			writer.close();
+			return;
+		}
+		if(userCurrentVersionApkInfo!=null&&!(apkmd5.equals(userCurrentVersionApkInfo.getApkmd5())))
+		{
+			String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath(dbMaxVersionApkInfo.getAppPath());
+			writer.print("{\"status\": true,\"incremental_update\": false,\"message\":\"该版本服务器端apkmd5和客户端apkmd5不同\",\"verCode\":"+dbMaxVersionApkInfo.getVerCode()+",\"verName\":\""+dbMaxVersionApkInfo.getVerName()+"\",\"size\":"+new File(dbMaxVersionApkInfo.getAppPath()).length()+",\"updatemessage\":"+dbMaxVersionApkInfo.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
+			writer.flush();
+			writer.close();
+			return;
+		}
+		//TODO 此情况暂时没看懂
+		if(userCurrentVersionApkInfo.getAppPath().equals(dbMaxVersionApkInfo.getAppPath()))
+		{
+			writer.print("{\"status\": false,\"errCode\": 106,\"message\": \"您的apk是最新的版本\"}");
+			writer.flush();
+			writer.close();
+			return;
+		}
+		//读取配置文件中差分包的根目录，判断包名是否存在，不存在则创建
+		File file=new File(info.getPatchpath()+File.separator+userCurrentVersionApkInfo.getPackageName()+File.separator);
+		if(!file.exists())
+		{
+			file.mkdirs();
+		}
+		//拼接差分包的路径，判断差分包是否存在，如果存在则返回差分包的下载路径，不存在则创建差分包，并返回差分包路径
+		String patch=file.getAbsolutePath()+File.separator+dbMaxVersionApkInfo.getVerCode()+"_"+userCurrentVersionApkInfo.getVerCode()+".patch";
+		File filepatch=new File(patch);
+		if(filepatch.exists())
+		{
+			String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath((info.getPatchpath()+File.separator+userCurrentVersionApkInfo.getPackageName()+File.separator+dbMaxVersionApkInfo.getVerCode()+"_"+userCurrentVersionApkInfo.getVerCode()+".patch"));
+			writer.print("{\"status\": true,\"incremental_update\": true,\"old_apk_md5\":\""+MD5Utils.getFileMD5(new File(userCurrentVersionApkInfo.getAppPath()))+"\",\"new_apk_md5\":\""+MD5Utils.getFileMD5(new File(dbMaxVersionApkInfo.getAppPath()))+"\",\"verCode\":"+dbMaxVersionApkInfo.getVerCode()+",\"verName\":\""+dbMaxVersionApkInfo.getVerName()+"\",\"size\":"+new File(patch).length()+",\"updatemessage\":"+dbMaxVersionApkInfo.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
+			writer.flush();
+			writer.close();
+		}
+		else
+		{
+			boolean bool=createPath.createPatch(dbMaxVersionApkInfo.getAppPath(), userCurrentVersionApkInfo.getAppPath(),patch);
+			if(bool)
+			{
+				String basePath=request.getScheme()+"://"+getIp(request)+":"+request.getServerPort()+request.getContextPath()+"/"+"Down?path="+DecoderEncoderUtils.encodeFilepath((info.getPatchpath()+File.separator+userCurrentVersionApkInfo.getPackageName()+File.separator+dbMaxVersionApkInfo.getVerCode()+"_"+userCurrentVersionApkInfo.getVerCode()+".patch"));
+				writer.print("{\"status\": true,\"incremental_update\": true,\"old_apk_md5\":\""+MD5Utils.getFileMD5(new File(userCurrentVersionApkInfo.getAppPath()))+"\",\"new_apk_md5\":\""+MD5Utils.getFileMD5(new File(dbMaxVersionApkInfo.getAppPath()))+"\",\"verCode\":"+dbMaxVersionApkInfo.getVerCode()+",\"verName\":\""+dbMaxVersionApkInfo.getVerName()+"\",\"size\":"+new File(patch).length()+",\"updatemessage\":"+dbMaxVersionApkInfo.getUpdatemessageJSON()+",\"url\": \""+basePath+"\"}");
+				writer.flush();
+				writer.close();
+			}
+			else
+			{
+				writer.print("{\"status\": false,\"errCode\": 107,\"message\": \"服务器出现异常\"}");
+				writer.flush();
+				writer.close();
+			}
+		}
+
 	}
 	private String getIp(HttpServletRequest request){
 		  return request.getServerName();

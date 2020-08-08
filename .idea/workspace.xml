@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="AppUpdate:war" />
+      <artifact name="AppUpdate:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae7f4bc-509f-4e90-88a1-2b60f1cad678" name="Default Changelist" comment="" />
+    <list default="true" id="fae7f4bc-509f-4e90-88a1-2b60f1cad678" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/servlet-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUpdate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppUpdate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/PushMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/PushMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/apk_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/apk_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/utils/StringUtils.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,109 +34,49 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AppUpdate$Tomcat_7_0_90.ic" NAME="Tomcat 7.0.90 Coverage Results" MODIFIED="1535006347644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1099439712">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="25" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.20" value="3" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="28" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="MF" value="2" />
-          <entry key="class" value="10" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="45" />
-          <entry key="jsp" value="11" />
-          <entry key="properties" value="7" />
-          <entry key="xml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="45" />
-          <entry key="JSP" value="11" />
-          <entry key="Manifest" value="2" />
-          <entry key="Properties" value="7" />
-          <entry key="XML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1313" />
-          <entry key="jsp" value="208" />
-          <entry key="properties" value="16" />
-          <entry key="xml" value="26" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1313" />
-          <entry key="JSP" value="208" />
-          <entry key="Properties" value="16" />
-          <entry key="XML" value="26" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/UploadApk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/apk_list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3534">
-              <caret line="186" column="164" selection-start-line="186" selection-start-column="49" selection-end-line="186" selection-end-column="169" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/DownloadApk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="163" column="59" selection-start-line="163" selection-start-column="59" selection-end-line="163" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/CommonUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="151">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#8108#8109#0" expanded="true" />
+                <element signature="e#8148#8149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/createPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wjs/bean/PathInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1176">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+              <folding>
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/JDBC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="296" column="26" selection-start-line="296" selection-start-column="26" selection-end-line="296" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -148,10 +105,12 @@
       <replace>appupdate</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wjs/utils/JDBC.java" />
         <option value="D:/Tools/apache-tomcat-7.0.90-windows-x64/apache-tomcat-7.0.90/webapps/manager/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/JDBC.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/JDBC.properties" />
@@ -160,20 +119,15 @@
         <option value="$PROJECT_DIR$/src/com/wjs/appupdate/Delete.java" />
         <option value="$PROJECT_DIR$/src/com/wjs/appupdate/DownloadApk.java" />
         <option value="$PROJECT_DIR$/src/com/wjs/appupdate/LoginService.java" />
-        <option value="$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java" />
         <option value="$PROJECT_DIR$/src/com/wjs/utils/ReadApkInfo.java" />
         <option value="$PROJECT_DIR$/src/com/wjs/appupdate/PushMessage.java" />
         <option value="$PROJECT_DIR$/web/apk_list.jsp" />
         <option value="$PROJECT_DIR$/src/com/wjs/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/com/wjs/appupdate/UploadApk.java" />
+        <option value="$PROJECT_DIR$/src/com/wjs/utils/JDBC.java" />
+        <option value="$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -182,81 +136,96 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="3" />
-    <option name="y" value="15" />
-    <option name="width" value="1940" />
-    <option name="height" value="989" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="922" />
+    <option name="y" value="152" />
+    <option name="width" value="3235" />
+    <option name="height" value="1835" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wjs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wjs" type="462c0819:PsiDirectoryNode" />
               <item name="appupdate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wjs" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wjs" type="462c0819:PsiDirectoryNode" />
               <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wjs" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AppUpdate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppUpdate" type="462c0819:PsiDirectoryNode" />
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,22 +235,23 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="appupdate" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539310472721" />
-    <property name="last_opened_file_path" value="D:/Tools/apache-tomcat-9.0.11-windows-x64/apache-tomcat-9.0.11/lib/servlet-api.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596848625438" />
+    <property name="last_opened_file_path" value="G:/DEVTOOLS/apache-tomcat-9.0.37/lib/jsp-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\APPUpdate_Server\lib" />
+      <recent name="E:\Server\AppUpdate\web\WEB-INF\lib\jpush" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Server\AppUpdate\web\WEB-INF" />
       <recent name="E:\Server\AppUpdate\web\WEB-INF\lib" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Server\AppUpdate\web\WEB-INF\lib\jpush" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,7 +266,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat7_0">
+  <component name="RunManager" selected="Tomcat Server.tomcat9_0">
+    <configuration name="DBUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wjs.temp.DBUtils" />
+      <module name="AppUpdate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wjs.temp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tomcat7_0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -309,11 +292,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_AppUpdate_4" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="52305" />
       </RunnerSettings>
@@ -381,12 +364,13 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_AppUpdate_2" />
+        <option name="HTTP_PORT" value="80" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="49898" />
       </RunnerSettings>
@@ -443,9 +427,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DBUtils" />
       <item itemvalue="Tomcat Server.tomcat9_0" />
       <item itemvalue="Tomcat Server.tomcat7_0" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DBUtils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -484,6 +474,8 @@
       <workItem from="1539311954737" duration="47000" />
       <workItem from="1539312019507" duration="13000" />
       <workItem from="1539312159655" duration="95000" />
+      <workItem from="1596341098914" duration="2803000" />
+      <workItem from="1596846063875" duration="2571000" />
     </task>
     <servers />
   </component>
@@ -496,12 +488,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38055000" />
+    <option name="totallyTimeSpent" value="43429000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="3086" height="1702" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23773988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11955086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -511,7 +504,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30877572" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30828026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,10 +512,11 @@
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3267516" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3290993" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -532,6 +526,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
@@ -570,9 +565,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -608,27 +600,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/wjs/test/UploadApk.java" />
-    <entry file="file://D:/Tools/apache-tomcat-7.0.90-windows-x64/apache-tomcat-7.0.90/webapps/manager/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/JDBC.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/JDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="347" column="5" selection-start-line="347" selection-start-column="5" selection-end-line="347" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Tools/apache-tomcat-7.0.90-windows-x64/apache-tomcat-7.0.90/webapps/manager/META-INF/context.xml" />
     <entry file="file://$PROJECT_DIR$/web/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -645,13 +617,6 @@
     <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/temp/DBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wjs/test/CheckUpdate.java" />
     <entry file="file://$PROJECT_DIR$/src/com/wjs/test/DownloadApk.java" />
     <entry file="file://$PROJECT_DIR$/src/com/wjs/test/PushMessage.java" />
@@ -661,9 +626,6 @@
           <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jpush/jpush-client-3.3.6.jar!/cn/jpush/api/push/model/PushPayload.class" />
     <entry file="file://$PROJECT_DIR$/src/Path.properties">
@@ -721,16 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/PushMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/ReadApkInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
@@ -745,34 +697,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/UploadApk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/apk_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3534">
+        <state relative-caret-position="5208">
           <caret line="186" column="164" selection-start-line="186" selection-start-column="49" selection-end-line="186" selection-end-column="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -786,10 +721,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/CommonUtil.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="977">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/UploadApk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="977">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/JDBC.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/temp/DBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/PushMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/JDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="296" column="26" selection-start-line="296" selection-start-column="26" selection-end-line="296" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/bean/PathInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/createPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8108#8109#0" expanded="true" />
+            <element signature="e#8148#8149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -852,6 +861,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
