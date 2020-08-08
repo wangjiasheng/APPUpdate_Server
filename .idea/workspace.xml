@@ -7,24 +7,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fae7f4bc-509f-4e90-88a1-2b60f1cad678" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/servlet-api.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppUpdate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppUpdate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/PushMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/PushMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/apk_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/apk_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/JDBC.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/Path.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/appupdate/CheckUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/appupdate/Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/appupdate/DownloadApk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/appupdate/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/appupdate/PushMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/appupdate/UploadApk$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/appupdate/UploadApk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/bean/ApkInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/bean/DBInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/bean/PathInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/temp/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/test/CheckUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/test/Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/test/DownloadApk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/test/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/test/UploadApk$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/test/UploadApk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/CommonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/DecoderEncoderUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/GetApkIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/MD5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/ReadApkInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/codec/AES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/codec/AESUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/codec/Base64Decoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/codec/Base64Encoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/classes/com/wjs/utils/createPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/commons-fileupload-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/commons-io-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/commons-logging.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/gson-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/javaxdelta-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/jiguang-common-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/jpush-client-3.3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/netty-build-22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/lib/trove-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/apk_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/img/logo_hsk.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/img/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/img/title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/nopage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/public503245/images/error/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/test/jquery-1.4.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war/tools/aapt.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/JDBC.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/Path.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/CheckUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/DownloadApk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/appupdate/PushMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/bean/ApkInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/bean/DBInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/bean/PathInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/temp/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/CommonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/DecoderEncoderUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/GetApkIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/MD5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/ReadApkInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/codec/AES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/codec/AESUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/codec/Base64Decoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/codec/Base64Encoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/classes/com/wjs/utils/createPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/commons-fileupload-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/commons-io-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/commons-logging.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/gson-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/javaxdelta-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/jiguang-common-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/jpush-client-3.3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/netty-build-22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/lib/trove-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/temp/upload_6eeef670_9199_4ab5_9854_643f5039af62_00000001.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/temp/upload_90fd36e5_5f6a_4965_8e2d_08fcdc9636c1_00000001.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/temp/upload_ac155b48_4ac5_4d5b_9cc4_cbcd19cf58ab_00000001.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/temp/upload_ac155b48_4ac5_4d5b_9cc4_cbcd19cf58ab_00000005.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/temp/upload_ac155b48_4ac5_4d5b_9cc4_cbcd19cf58ab_00000009.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/temp/upload_ac155b48_4ac5_4d5b_9cc4_cbcd19cf58ab_00000013.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/temp/upload_c9a1b67e_96ef_4b7b_a5bf_52f05b23bca0_00000001.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/apk_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/img/logo_hsk.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/img/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/img/title.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/nopage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/public503245/images/error/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/test/jquery-1.4.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AppUpdate_war_exploded/tools/aapt.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/CheckUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/wjs/appupdate/CheckUpdate.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/libraries/lib.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +136,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="334">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#8108#8109#0" expanded="true" />
                 <element signature="e#8148#8149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/StringUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.ignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/Delete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="31" column="54" selection-start-line="31" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/DownloadApk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1196">
+              <caret line="163" column="59" selection-start-line="163" selection-start-column="59" selection-end-line="163" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/PushMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-471">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,6 +281,7 @@
         <option value="$PROJECT_DIR$/src/com/wjs/appupdate/UploadApk.java" />
         <option value="$PROJECT_DIR$/src/com/wjs/utils/JDBC.java" />
         <option value="$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java" />
+        <option value="$PROJECT_DIR$/.ignore" />
       </list>
     </option>
   </component>
@@ -158,45 +314,6 @@
             <path>
               <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wjs" type="462c0819:PsiDirectoryNode" />
-              <item name="appupdate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wjs" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wjs" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wjs" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APPUpdate_Server" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,15 +329,6 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="APPUpdate_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -235,7 +343,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="appupdate" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596848625438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596849194946" />
     <property name="last_opened_file_path" value="G:/DEVTOOLS/apache-tomcat-9.0.37/lib/jsp-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -475,7 +583,7 @@
       <workItem from="1539312019507" duration="13000" />
       <workItem from="1539312159655" duration="95000" />
       <workItem from="1596341098914" duration="2803000" />
-      <workItem from="1596846063875" duration="2571000" />
+      <workItem from="1596846063875" duration="3224000" />
     </task>
     <servers />
   </component>
@@ -488,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43429000" />
+    <option name="totallyTimeSpent" value="44082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="3086" height="1702" extended-state="6" />
@@ -504,18 +612,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30828026" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30828026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290993" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3267516" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3290993" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -564,6 +672,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -631,13 +765,6 @@
     <entry file="file://$PROJECT_DIR$/src/Path.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="31" column="54" selection-start-line="31" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/nopage.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -690,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/apk_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5208">
@@ -710,19 +830,6 @@
           <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/DownloadApk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="163" column="59" selection-start-line="163" selection-start-column="59" selection-end-line="163" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,16 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/PushMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/JDBC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -790,15 +887,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="501">
+          <caret line="31" column="54" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/DownloadApk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="163" column="59" selection-start-line="163" selection-start-column="59" selection-end-line="163" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/PushMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wjs/appupdate/CheckUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
             <element signature="e#8108#8109#0" expanded="true" />
             <element signature="e#8148#8149#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
