@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadApk</servlet-name>
+    <servlet-class>com.wjs.appupdate.UploadApk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckUpdate</servlet-name>
+    <servlet-class>com.wjs.appupdate.CheckUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>com.wjs.appupdate.Delete</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Down</servlet-name>
+    <servlet-class>com.wjs.appupdate.DownloadApk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginService</servlet-name>
+    <servlet-class>com.wjs.appupdate.LoginService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PushMessage</servlet-name>
+    <servlet-class>com.wjs.appupdate.PushMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateTable</servlet-name>
+    <servlet-class>com.wjs.appupdate.CreateTable</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UploadApk</servlet-name>
+    <url-pattern>/UploadApk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUpdate</servlet-name>
+    <url-pattern>/CheckUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Down</servlet-name>
+    <url-pattern>/Down</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginService</servlet-name>
+    <url-pattern>/LoginService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PushMessage</servlet-name>
+    <url-pattern>/PushMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateTable</servlet-name>
+    <url-pattern>/CreateTable</url-pattern>
+  </servlet-mapping>
+   <error-page><!-- 支持多个 -->
+  	<error-code>404</error-code>
+  	<location>/nopage.jsp</location>
+  </error-page>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
